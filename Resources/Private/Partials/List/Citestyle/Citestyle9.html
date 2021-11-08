@@ -83,7 +83,7 @@
 	<f:then><f:render section="date" arguments="{_all}"/></f:then>
 	<f:else>[date unknown]</f:else>
 	</f:if>
-	<f:if condition="{publication.webUrlDate}">[cited: {publication.webUrlDate}].</f:if>
+	<f:if condition="{publication.webUrlDate}">[accessed: {publication.webUrlDate}].</f:if>
 	<f:if condition="{publication.webUrl}">Available from: {publication.webUrl}</f:if>
 	<f:render partial="List/Citestyle/LinkBlock-Inline" section="linkblock-inline" arguments="{_all}"/>
 </f:section>
