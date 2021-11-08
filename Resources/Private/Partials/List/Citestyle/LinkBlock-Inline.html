@@ -13,7 +13,7 @@
 
 <f:section name="linkblock-inline">
 <f:if condition="{publication.doi} || {publication.pmid} || {publication.webUrl} || {publication.webUrl2} ">
-&nbsp;&nbsp;&nbsp;<i class="fas fa-linkP	P"></i>&nbsp;
+&nbsp;&nbsp;&nbsp;<i class="fas fa-linkP"></i>&nbsp;
 </f:if>
 			<f:if condition="{publication.doi}">
 					<f:link.typolink parameter="https://dx.doi.org/{publication.doi}" target="_blank"><span style="color: #7D9AAA;"><i class="ai ai-doi-square ai-lg" title="{f:translate(key:'linkblock.doi')}"></i><span class="sr-only">[{f:translate(key:'linkblock.doi')}]</span></span></f:link.typolink>&nbsp;
