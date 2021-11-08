@@ -216,24 +216,14 @@ Pohl S, Kellner A, Muster MR, Stein SS.
 
 <f:section name="authors">
 	<f:for each="{publication.authors}" as="author" iteration="iteration">
-		<f:if condition="{publication.authors -> f:count()} == 1">
-			<f:then>	{author.lastName}
-				<publications:format.initials  glue='' suffix='' >{author.firstName}</publications:format.initials>.
-			</f:then>
-			<f:else>
-				<f:if condition="{iteration.isLast}">
-					<f:then>
-						{author.lastName}
-						<publications:format.initials glue='' suffix='' >{author.firstName}</publications:format.initials>.
-					</f:then>
-					<f:else>
-						{author.lastName}
-						<publications:format.initials  glue='' suffix='' >{author.firstName}</publications:format.initials>,
-					</f:else>
-				</f:if>
-			</f:else>
-		</f:if>
-	</f:for>
+	{author.lastName}&nbsp;<publications:format.initials  glue='' suffix='' >{author.firstName}</publications:format.initials><f:if condition="{publication.authors -> f:count()} == 1"><f:then>.</f:then>
+<f:else><f:if condition="{iteration.isLast}">
+<f:then>.</f:then>
+<f:else>,</f:else>
+</f:if>
+</f:else>
+</f:if>
+</f:for>
 </f:section>
 
 </html>
