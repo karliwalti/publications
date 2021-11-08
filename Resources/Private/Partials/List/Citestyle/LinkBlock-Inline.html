@@ -16,19 +16,19 @@
 &nbsp;&nbsp;&nbsp;<i class="fas fa-linkP	P"></i>&nbsp;
 </f:if>
 			<f:if condition="{publication.doi}">
-					<f:link.typolink parameter="https://dx.doi.org/{publication.doi}" target="_blank"><span style="color: #A32638;"><i class="ai ai-doi-square ai-lg" title="{f:translate(key:'linkblock.doi')}"></i><span class="sr-only">[{f:translate(key:'linkblock.doi')}]</span></span></f:link.typolink>&nbsp;
+					<f:link.typolink parameter="https://dx.doi.org/{publication.doi}" target="_blank"><span style="color: #7D9AAA;"><i class="ai ai-doi-square ai-lg" title="{f:translate(key:'linkblock.doi')}"></i><span class="sr-only">[{f:translate(key:'linkblock.doi')}]</span></span></f:link.typolink>&nbsp;
 			</f:if>
 			<f:if condition="{publication.pmid}">
-						<f:link.typolink parameter="https://pubmed.ncbi.nlm.nih.gov/{publication.pmid}" target="_blank"><span style="color: #A32638;"><i class="ai ai-pubmed-square ai-lg" title="{f:translate(key:'linkblock.pmid')}"></i><span class="sr-only">[{f:translate(key:'linkblock.pmid')}]</span></span></f:link.typolink>&nbsp;
+						<f:link.typolink parameter="https://pubmed.ncbi.nlm.nih.gov/{publication.pmid}" target="_blank"><span style="color: #7D9AAA;"><i class="ai ai-pubmed-square ai-lg" title="{f:translate(key:'linkblock.pmid')}"></i><span class="sr-only">[{f:translate(key:'linkblock.pmid')}]</span></span></f:link.typolink>&nbsp;
 				</f:if>
 				<f:if condition="{publication.webUrl} ">
-						<f:link.typolink parameter="{publication.webUrl}" target="_blank"><span style="color: #A32638;"><i class="fas fa-external-link-square-alt fa-lg" title="{f:translate(key:'linkblock.weburl1')}"></i><span class="sr-only">[{f:translate(key:'linkblock.weburl1')}]</span></span></f:link.typolink>&nbsp;
+						<f:link.typolink parameter="{publication.webUrl}" target="_blank"><span style="color: #7D9AAA;"><i class="fas fa-external-link-square-alt fa-lg" title="{f:translate(key:'linkblock.weburl1')}"></i><span class="sr-only">[{f:translate(key:'linkblock.weburl1')}]</span></span></f:link.typolink>&nbsp;
 				</f:if>
 				<f:if condition="{publication.webUrl2}">
-						<f:link.typolink parameter="{publication.webUrl2}" target="_blank"><span style="color: #A32638;"><i class="fas fa-external-link-square-alt fa-lg" title="{f:translate(key:'linkblock.weburl2')}"></i><span class="sr-only">[{f:translate(key:'linkblock.weburl2')}]</span></span></f:link.typolink>&nbsp;
+						<f:link.typolink parameter="{publication.webUrl2}" target="_blank"><span style="color: #7D9AAA;"><i class="fas fa-external-link-square-alt fa-lg" title="{f:translate(key:'linkblock.weburl2')}"></i><span class="sr-only">[{f:translate(key:'linkblock.weburl2')}]</span></span></f:link.typolink>&nbsp;
 				</f:if>
 				<f:if condition="{publication.fileUrl}">
-						&nbsp;&nbsp;&nbsp;<i class="ai ai-open-access ai-lg"></i>&nbsp;<f:link.typolink parameter="{publication.fileUrl}" target="_blank"><span style="color: #A32638;"><i class="fas fa-file-alt " title="{f:translate(key:'linkblock.file')}"></i><span class="sr-only">[{f:translate(key:'linkblock.file')}]</span></span></f:link.typolink>&nbsp;
+						&nbsp;&nbsp;&nbsp;<i class="ai ai-open-access ai-lg"></i>&nbsp;<f:link.typolink parameter="{publication.fileUrl}" target="_blank"><span style="color: #7D9AAA;"><i class="fas fa-file-alt " title="{f:translate(key:'linkblock.file')}"></i><span class="sr-only">[{f:translate(key:'linkblock.file')}]</span></span></f:link.typolink>&nbsp;
 						<!--	<f:link.typolink parameter="{publication.fileUrl}" target="_blank" /> -->
 				</f:if>
 </f:section>
