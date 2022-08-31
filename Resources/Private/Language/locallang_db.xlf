@@ -287,7 +287,10 @@
 				<source>Filter</source>
 			</trans-unit>
 			<trans-unit id="flexform.pi1.filter.timeframe">
-				<source>Choose a timeframe</source>
+				<source>Timeframe (years)</source>
+			</trans-unit>
+			<trans-unit id="flexform.pi1.filter.timeframe.label">
+				<source>Select how old the publications can maximally be.</source>
 			</trans-unit>
 			<trans-unit id="flexform.pi1.filter.timeframe.0">
 				<source>all</source>
@@ -469,10 +472,15 @@
 			<trans-unit id="flexform.pi1.template.hideFilter">
 				<source>Hide filter?</source>
 			</trans-unit>
+			<trans-unit id="flexform.pi1.template.hideFilter.label">
+				<source>Removes the filter form from page. Visotors cannot search in publications.</source>
+			</trans-unit>
 			<trans-unit id="flexform.pi1.template.hideEnumeration">
 				<source>Hide enumeration?</source>
 			</trans-unit>
-
+			<trans-unit id="flexform.pi1.template.hideEnumeration.label">
+				<source>List entries will not have a prefixed number</source>
+			</trans-unit>
 			<trans-unit id="flexform.pi1.template.linkNames">
 				<source>Link names</source>
 			</trans-unit>

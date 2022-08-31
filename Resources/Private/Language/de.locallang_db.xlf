@@ -370,9 +370,17 @@
 				<source>Filter</source>
 				<target state="translated">Filter</target>
 			</trans-unit>
+			<trans-unit id="flexform.pi1.filter.label">
+				<source>All filters will be combined with "AND".</source>
+				<target state="translated">Alle Filter werden mit "AND" kombiniert.</target>
+			</trans-unit>
 			<trans-unit id="flexform.pi1.filter.timeframe">
 				<source>Choose a timeframe</source>
-				<target state="translated">Zeitraum wählen</target>
+				<target state="translated">Zeitraum (Jahre)</target>
+			</trans-unit>
+			<trans-unit id="flexform.pi1.filter.timeframe.label">
+				<source>Select how old the publications can maximally be.</source>
+				<target state="translated">Wie alt dürfen die Publikationen sein?</target>
 			</trans-unit>
 			<trans-unit id="flexform.pi1.filter.timeframe.0">
 				<source>all</source>
@@ -614,9 +622,25 @@
 				<source>Hide filter?</source>
 				<target state="translated">Filter verbergen?</target>
 			</trans-unit>
+			<trans-unit id="flexform.pi1.template.hideFilter.label">
+				<source>Removes the filter form from the frontend. Visotors cannot search in publications.</source>
+				<target state="translated">Verbirgt die Filtereingabemaske im Frontend. Besucher könne nicht in der Liste selbst suchen.</target>
+			</trans-unit>
 			<trans-unit id="flexform.pi1.template.hideEnumeration">
 				<source>Hide enumeration?</source>
 				<target state="translated">Nummerierung verbergen?</target>
+			</trans-unit>
+			<trans-unit id="flexform.pi1.template.hideEnumeration.label">
+				<source>List entries will not have a prefixed number</source>
+				<target state="translated">Die Liste wird ohne Numerierung angezeigt.</target>
+			</trans-unit>
+			<trans-unit id="flexform.pi1.template.linkNames">
+				<source>Link names</source>
+				<target state="translated">Verlinkte Namen</target>
+			</trans-unit>
+			<trans-unit id="flexform.pi1.template.linkNames.label">
+				<source>Adds a link where name URL or ORCID database entry is set.</source>
+				<target state="translated">Der Name wird verlinkt wenn eine URL oder ORCID in der Datenbank vorhanden ist.</target>
 			</trans-unit>
 			<trans-unit id="flexform.pi1.template.showGroupLinks">
 				<source>Header with Links</source>
