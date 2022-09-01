@@ -17,6 +17,11 @@
 							<config>
 								<type>check</type>
 								<default>0</default>
+								<items type="array">
+										<numIndex index="0" type="array">
+											<numIndex index="0">LLL:EXT:publications/Resources/Private/Language/locallang_db.xlf:flexform.pi1.template.hideFilter.label</numIndex>
+										</numIndex>
+								</items>
 							</config>
 						</TCEforms>
 					</settings.hideFilter>
@@ -27,6 +32,11 @@
 							<config>
 								<type>check</type>
 								<default>0</default>
+								<items type="array">
+										<numIndex index="0" type="array">
+											<numIndex index="0">LLL:EXT:publications/Resources/Private/Language/locallang_db.xlf:flexform.pi1.template.hideEnumeration.label</numIndex>
+										</numIndex>
+								</items>
 							</config>
 						</TCEforms>
 					</settings.hideEnumeration>

@@ -286,6 +286,9 @@
 			<trans-unit id="flexform.pi1.filter">
 				<source>Filter</source>
 			</trans-unit>
+			<trans-unit id="flexform.pi1.filter.label">
+				<source>All filters will be combined with "AND".</source>
+			</trans-unit>
 			<trans-unit id="flexform.pi1.filter.timeframe">
 				<source>Timeframe (years)</source>
 			</trans-unit>
@@ -473,7 +476,7 @@
 				<source>Hide filter?</source>
 			</trans-unit>
 			<trans-unit id="flexform.pi1.template.hideFilter.label">
-				<source>Removes the filter form from page. Visotors cannot search in publications.</source>
+				<source>Removes the filter form from page. Visitors will not search in publications.</source>
 			</trans-unit>
 			<trans-unit id="flexform.pi1.template.hideEnumeration">
 				<source>Hide enumeration?</source>
